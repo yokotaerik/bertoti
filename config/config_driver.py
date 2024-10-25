@@ -11,7 +11,7 @@ class ConfigDriver:
     def __init__(self):
         # options = Options()
         # options.add_argument("--headless")  # Adiciona o modo headless
-        self.service = Service(executable_path="./msedgedriver.exe")
+        self.service = Service(executable_path=".\config\msedgedriver.exe")
         self.driver = webdriver.Edge(service=self.service)
 
     ################################################################################        
